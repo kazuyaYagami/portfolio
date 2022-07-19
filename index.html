@@ -172,7 +172,7 @@
             </div><!--column left-->
             <div class="column rigth">
                 <div class="text">Mensagem</div>
-                <form action="https://formsubmit.co/felipebuskievicz@gmail.com" method="POST">
+                <form action="https://api.staticforms.xyz/submit" method="post">
                     <div class="fields">
                         <div class="field name">
                             <input type="text" placeholder="Nome" required>
@@ -188,7 +188,11 @@
                         <div class="field textarea">
                            <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
                         </div>
-                        <input type="hidden" name="_captcha" value="false">
+                         <input type="hidden" name="accessKey" value="e9ffb6b3-0a09-4b9b-98b1-6b7c4d3139fe">
+        <input type="hidden" name="subject" value="Contact us from - felipebuskievicz@gmail.com" />
+        <input type="hidden" name="replyTo" value="felipebuskievicz@gmail.com">
+        <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+        <input type="submit" value="Submit" />
                         <div class="button">
                             <input type="hidden" name="_next" value="https://portifolio-felpy.netlify.app/obg.html">
                             <button type="submit">Enviar</button>
